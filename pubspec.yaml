@@ -74,6 +74,10 @@ flutter:
     - Asset/assets/images/icons/Logout.png
     - Asset/assets/images/icons/About.png
     - Asset/assets/images/icons/Share.png
+    - Asset/assets/images/component/Filter-icon.png
+    - Asset/assets/images/component/Banner-plugin.png
+    - Asset/assets/images/component/Ranifa.png
+    - Asset/assets/images/component/Fikal.png
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
