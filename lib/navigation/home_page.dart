@@ -150,7 +150,6 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ),
               ),
-
               Expanded(
                 child: Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 28),
@@ -198,13 +197,34 @@ class _HomePageState extends State<HomePage> {
                               ),
                             ),
                             const SizedBox(height: 10),
-                            Text(
-                              'Rp 10.000.000',
-                              style: GoogleFonts.sora(
-                                fontSize: 16,
-                                fontWeight: FontWeight.bold,
-                                color: AppColors.getstartedbutton,
-                              ),
+                            Row(
+                              children: [
+                                Padding(
+                                  padding: const EdgeInsets.only(
+                                      left: 10.0, right: 10.0),
+                                  child: Text(
+                                    'Rp 10.000.000',
+                                    style: GoogleFonts.sora(
+                                      fontSize: 16,
+                                      fontWeight: FontWeight.bold,
+                                      color: AppColors.getstartedbutton,
+                                    ),
+                                  ),
+                                ),
+                                Container(
+                                  width: 29,
+                                  height: 29,
+                                  decoration: BoxDecoration(
+                                    color: Colors.grey[800],
+                                    borderRadius: BorderRadius.circular(5),
+                                    image: const DecorationImage(
+                                      image: AssetImage(
+                                          'Asset/assets/images/icons/Add.png'),
+                                      fit: BoxFit.cover,
+                                    ),
+                                  ),
+                                ),
+                              ],
                             ),
                           ],
                         ),
@@ -246,13 +266,33 @@ class _HomePageState extends State<HomePage> {
                               ),
                             ),
                             const SizedBox(height: 10),
-                            Text(
-                              'Rp 9.000.000',
-                              style: GoogleFonts.sora(
-                                fontSize: 16,
-                                fontWeight: FontWeight.bold,
-                                color: AppColors.getstartedbutton,
-                              ),
+                            Row(
+                              children: [
+                                Padding(
+                                  padding: const EdgeInsets.only(
+                                      left: 10.0, right: 10.0),
+                                  child: Text(
+                                    'Rp 9.000.000',
+                                    style: GoogleFonts.sora(
+                                      fontSize: 16,
+                                      fontWeight: FontWeight.bold,
+                                      color: AppColors.getstartedbutton,
+                                    ),
+                                  ),
+                                ),
+                                Container(
+                                  width: 29,
+                                  height: 29,
+                                  decoration: BoxDecoration(
+                                      color: Colors.white,
+                                      borderRadius: BorderRadius.circular(5),
+                                      image: const DecorationImage(
+                                        image: AssetImage(
+                                            'Asset/assets/images/icons/Add.png'),
+                                        fit: BoxFit.cover,
+                                      )),
+                                )
+                              ],
                             ),
                           ],
                         ),

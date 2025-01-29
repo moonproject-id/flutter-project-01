@@ -81,20 +81,20 @@ class _UserPageState extends State<UserPage> {
                       ),
                     ),
                     const SizedBox(height: 8),
-              Text(
-              '${user.firstName} ${user.lastName}',
-              style: GoogleFonts.sora( 
-              fontWeight: FontWeight.bold,
-                fontSize: 16,
-              ),
-              ),
-              Text(
-              user.email,
-              style: GoogleFonts.sora(
-              color: Colors.grey[600],
-                fontSize: 12,
-              ),
-              ),
+                    Text(
+                      '${user.firstName} ${user.lastName}',
+                      style: GoogleFonts.sora(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 16,
+                      ),
+                    ),
+                    Text(
+                      user.email,
+                      style: GoogleFonts.sora(
+                        color: Colors.grey[600],
+                        fontSize: 12,
+                      ),
+                    ),
                   ],
                 ),
               );
