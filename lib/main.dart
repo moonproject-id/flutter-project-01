@@ -1,4 +1,4 @@
-import 'package:final_project1/screen/get_started_page.dart';
+import 'package:Plugin/screen/get_started_page.dart';
 import 'package:flutter/material.dart';
 
 

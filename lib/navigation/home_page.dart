@@ -1,4 +1,4 @@
-import 'package:final_project1/constant/colors.dart';
+import 'package:Plugin/constant/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 

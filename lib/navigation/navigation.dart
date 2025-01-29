@@ -1,6 +1,6 @@
-import 'package:final_project1/navigation/home_page.dart';
-import 'package:final_project1/navigation/user_page.dart';
-import 'package:final_project1/navigation/profil_page.dart';
+import 'package:Plugin/navigation/home_page.dart';
+import 'package:Plugin/navigation/user_page.dart';
+import 'package:Plugin/navigation/profil_page.dart';
 import 'package:flutter/material.dart';
 
 class Navigation extends StatefulWidget {

@@ -1,6 +1,6 @@
 {
-    "name": "final_project1",
-    "short_name": "final_project1",
+    "name": "Plugin",
+    "short_name": "Plugin",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
